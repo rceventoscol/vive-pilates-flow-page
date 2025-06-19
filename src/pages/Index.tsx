@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Instagram, MessageCircle } from "lucide-react";
+import Header from "@/components/Header";
 
 const Index = () => {
   const handleWhatsAppClick = () => {
@@ -14,17 +15,11 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-gray-50">
+      <Header />
+      
       {/* Hero Section */}
       <section className="relative px-6 py-20 text-center max-w-6xl mx-auto">
         <div className="animate-fade-in">
-          <div className="mb-8">
-            <img 
-              src="/lovable-uploads/cec9b72e-69cc-480a-8b74-5afb29633453.png" 
-              alt="Vive Pilates Studio" 
-              className="w-32 h-auto mx-auto mb-8 hover:scale-105 transition-transform duration-300"
-            />
-          </div>
-          
           <h1 className="text-5xl md:text-6xl font-light text-gray-900 mb-6 leading-tight">
             Bienvenido a <span className="font-medium">Vive Pilates Studio</span>
           </h1>
@@ -48,8 +43,41 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Photos Section */}
       <section className="px-6 py-20 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-light text-center text-gray-900 mb-16">
+            Transforma tu cuerpo con Pilates
+          </h2>
+          
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=400&h=300&fit=crop" 
+                alt="Pilates en estudio"
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop" 
+                alt="Ejercicios de Pilates"
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=300&fit=crop" 
+                alt="Instructor de Pilates"
+                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="px-6 py-20 bg-gradient-to-r from-gray-50 to-blue-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-light text-center text-gray-900 mb-16">
             Nuestros servicios incluyen:
@@ -104,7 +132,7 @@ const Index = () => {
       </section>
 
       {/* Contact & Hours Section */}
-      <section className="px-6 py-20 bg-gradient-to-r from-gray-50 to-blue-50">
+      <section className="px-6 py-20 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-light text-center text-gray-900 mb-16">
             Horarios y contacto
