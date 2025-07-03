@@ -53,22 +53,22 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=400&h=300&fit=crop" 
-                alt="Mujer practicando ejercicios de Pilates en colchoneta"
+                src="/lovable-uploads/c66c63cd-1e0b-4b12-ad63-654dff59c4bb.png" 
+                alt="Mujer practicando ejercicio de puente en Pilates"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop" 
-                alt="Grupo de personas haciendo ejercicios de Pilates"
+                src="/lovable-uploads/dd036c47-96a9-472c-8f76-a4c4b16f145f.png" 
+                alt="Mujer realizando plancha lateral en ejercicio de Pilates"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=400&h=300&fit=crop" 
-                alt="Ejercicios de Pilates con equipamiento especializado"
+                src="/lovable-uploads/fb8119e2-64ca-47f2-964c-2ad550ea560e.png" 
+                alt="Clase de Pilates con instructor y alumna en estudio"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
