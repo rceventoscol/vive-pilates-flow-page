@@ -53,22 +53,22 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?w=400&h=300&fit=crop" 
-                alt="Pilates en estudio"
+                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=400&h=300&fit=crop" 
+                alt="Mujer practicando ejercicios de Pilates en colchoneta"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop" 
-                alt="Ejercicios de Pilates"
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop" 
+                alt="Grupo de personas haciendo ejercicios de Pilates"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=300&fit=crop" 
-                alt="Instructor de Pilates"
+                src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=400&h=300&fit=crop" 
+                alt="Ejercicios de Pilates con equipamiento especializado"
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
